@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ESH.CLI": {
+      "commandName": "Project",
+      "commandLineArgs": "update "
+    }
+  }
+}
