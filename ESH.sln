@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{482271EF-620
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESH.CLI", "src\ESH.CLI\ESH.CLI.csproj", "{4DA90795-EC01-446F-B80F-3413EE3F5254}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{031275B6-278B-4EC8-A1D6-72D0575F013B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESH.Tests", "tests\ESH.Tests\ESH.Tests.csproj", "{105870A7-6C18-47AF-AFE3-B3DDFA2E6E86}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{4DA90795-EC01-446F-B80F-3413EE3F5254}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DA90795-EC01-446F-B80F-3413EE3F5254}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DA90795-EC01-446F-B80F-3413EE3F5254}.Release|Any CPU.Build.0 = Release|Any CPU
+		{105870A7-6C18-47AF-AFE3-B3DDFA2E6E86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{105870A7-6C18-47AF-AFE3-B3DDFA2E6E86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{105870A7-6C18-47AF-AFE3-B3DDFA2E6E86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{105870A7-6C18-47AF-AFE3-B3DDFA2E6E86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4DA90795-EC01-446F-B80F-3413EE3F5254} = {482271EF-6203-4F2E-8D3D-42B033435439}
+		{105870A7-6C18-47AF-AFE3-B3DDFA2E6E86} = {031275B6-278B-4EC8-A1D6-72D0575F013B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {906F7B92-BD8F-4998-B27B-C33780FA14A5}
