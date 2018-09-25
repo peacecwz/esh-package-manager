@@ -12,14 +12,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Commands\" />
-    <Folder Include="Models\Response\" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <PackageReference Include="CTable" Version="1.0.0" />
     <PackageReference Include="LibGit2Sharp" Version="0.25.2" />
-    <PackageReference Include="Microsoft.Extensions.CommandLineUtils" Version="1.1.1" />
-    <PackageReference Include="Newtonsoft.Json" Version="8.0.3" />
+    <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="2.2.5" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="2.1.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="ShellProgressBar" Version="4.2.0" />
   </ItemGroup>
 
 </Project>
