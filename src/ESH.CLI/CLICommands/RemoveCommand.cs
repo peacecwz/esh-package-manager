@@ -4,7 +4,7 @@ using McMaster.Extensions.CommandLineUtils;
 
 namespace ESH.CLI.CLICommands
 {
-    [Command(Name = "add", Description = "Add package from Git repository")]
+    [Command(Name = "remove", Description = "Remove esh packages from package list")]
     [HelpOption("-h|--help")]
     public class RemoveCommand
     {
