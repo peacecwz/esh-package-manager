@@ -1,6 +1,6 @@
 ﻿namespace ESH.CLI.Models
 {
-    public class ResponseBase<T> where T : class
+    public class ResponseBase<T>
     {
         public bool IsSucess { get; set; }
         public string Message { get; set; }
