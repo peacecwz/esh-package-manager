@@ -5,7 +5,7 @@ using McMaster.Extensions.CommandLineUtils;
 
 namespace ESH.CLI.CLICommands
 {
-    [Command(Name = "update", Description = "Update package from Git repository")]
+    [Command(Name = "update", Description = "Update package(s) from Git repository")]
     [HelpOption("-h|--help")]
     public class UpdateCommand
     {
