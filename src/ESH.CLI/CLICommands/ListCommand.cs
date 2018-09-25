@@ -4,7 +4,7 @@ using McMaster.Extensions.CommandLineUtils;
 
 namespace ESH.CLI.CLICommands
 {
-    [Command(Name = "list", Description = "Add package from Git repository")]
+    [Command(Name = "list", Description = "List esh packages")]
     [HelpOption("-h|--help")]
     public class ListCommand
     {
