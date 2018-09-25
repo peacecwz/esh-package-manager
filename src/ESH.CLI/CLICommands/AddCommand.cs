@@ -5,7 +5,7 @@ using McMaster.Extensions.CommandLineUtils;
 
 namespace ESH.CLI.CLICommands
 {
-    [Command(Name = "add", Description = "Add package from Git repository")]
+    [Command(Name = "add", Description = "Add package from local git repository")]
     [HelpOption("-h|--help")]
     public class AddCommand
     {
