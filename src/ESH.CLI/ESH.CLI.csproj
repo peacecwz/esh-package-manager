@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <AssemblyName>es</AssemblyName>
+    <PackageVersion>0.0.1</PackageVersion>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <PackageId>esh</PackageId>
