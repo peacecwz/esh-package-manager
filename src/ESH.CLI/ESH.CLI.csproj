@@ -1,8 +1,22 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <AssemblyName>es</AssemblyName>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <PackageId>esh</PackageId>
+    <Authors>Baris Ceviz</Authors>
+    <Product>esh</Product>
+    <Description>ESH Package Manager</Description>
+    <Copyright>Copyright @2018 Baris Ceviz</Copyright>
+    <PackageLicenseUrl>https://github.com/peacecwz/esh-package-manager/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/peacecwz/esh-package-manager</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/peacecwz/esh-package-manager.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>esh,package manager,nuget,package,manager</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <IsPackable>true</IsPackable>
+    <PackAsTool>true</PackAsTool>
   </PropertyGroup>
 
   <ItemGroup>
