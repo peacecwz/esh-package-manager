@@ -1,9 +1,5 @@
 # ESH Package Manager
 
-## Warning
-
-This project is depracted. It will be removed
-
 ## Getting Started
 
 .NET & .NET Core package manager (like a Nuget Package Manager) tool from git sources. It's working like a NPM. You can install git repository as a package referance to projects. Easily install, update, build and more actions
